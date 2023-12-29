@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ansh-dulewale.github.io/portfolio/static/css/main.d45094a4.css",
-    "main.js": "/ansh-dulewale.github.io/portfolio/static/js/main.97b85bd6.js",
+    "main.js": "/ansh-dulewale.github.io/portfolio/static/js/main.6f246c05.js",
     "static/js/787.53ca580d.chunk.js": "/ansh-dulewale.github.io/portfolio/static/js/787.53ca580d.chunk.js",
     "static/media/Background.jpg": "/ansh-dulewale.github.io/portfolio/static/media/Background.30e68a277c5c152b1b51.jpg",
     "static/media/Ansh_Dulewale.jpg": "/ansh-dulewale.github.io/portfolio/static/media/Ansh_Dulewale.773e0070d22ff1f166c1.jpg",
@@ -20,11 +20,11 @@
     "static/media/contactPageImage.webp": "/ansh-dulewale.github.io/portfolio/static/media/contactPageImage.2db72d8c7151b6c07a2f.webp",
     "index.html": "/ansh-dulewale.github.io/portfolio/index.html",
     "main.d45094a4.css.map": "/ansh-dulewale.github.io/portfolio/static/css/main.d45094a4.css.map",
-    "main.97b85bd6.js.map": "/ansh-dulewale.github.io/portfolio/static/js/main.97b85bd6.js.map",
+    "main.6f246c05.js.map": "/ansh-dulewale.github.io/portfolio/static/js/main.6f246c05.js.map",
     "787.53ca580d.chunk.js.map": "/ansh-dulewale.github.io/portfolio/static/js/787.53ca580d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d45094a4.css",
-    "static/js/main.97b85bd6.js"
+    "static/js/main.6f246c05.js"
   ]
 }
