@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ansh-dulewale.github.io/portfolio/static/css/main.d45094a4.css",
+    "main.js": "/ansh-dulewale.github.io/portfolio/static/js/main.8f5d7656.js",
+    "static/js/787.53ca580d.chunk.js": "/ansh-dulewale.github.io/portfolio/static/js/787.53ca580d.chunk.js",
+    "static/media/Background.jpg": "/ansh-dulewale.github.io/portfolio/static/media/Background.30e68a277c5c152b1b51.jpg",
+    "static/media/Ansh_Dulewale.jpg": "/ansh-dulewale.github.io/portfolio/static/media/Ansh_Dulewale.773e0070d22ff1f166c1.jpg",
+    "static/media/Reactjs.png": "/ansh-dulewale.github.io/portfolio/static/media/Reactjs.461d60c2b0e1fb3e9679.png",
+    "static/media/Typescipt.png": "/ansh-dulewale.github.io/portfolio/static/media/Typescipt.ba1626554b23b06be491.png",
+    "static/media/Java.png": "/ansh-dulewale.github.io/portfolio/static/media/Java.045dcd5539d39c351d97.png",
+    "static/media/nodejs.png": "/ansh-dulewale.github.io/portfolio/static/media/nodejs.a2ce897f04f8a1c1fda9.png",
+    "static/media/Js.png": "/ansh-dulewale.github.io/portfolio/static/media/Js.6556d4d6dec834bfb109.png",
+    "static/media/MovieBookingManagement.png": "/ansh-dulewale.github.io/portfolio/static/media/MovieBookingManagement.b722b21d59c16d0ec93f.png",
+    "static/media/Developer.png": "/ansh-dulewale.github.io/portfolio/static/media/Developer.57364657d75eba906d02.png",
+    "static/media/Quiz-game.png": "/ansh-dulewale.github.io/portfolio/static/media/Quiz-game.7db1fe8fea69a2ea1bd8.png",
+    "static/media/css.png": "/ansh-dulewale.github.io/portfolio/static/media/css.903acdfe963656e7c5cf.png",
+    "static/media/html.png": "/ansh-dulewale.github.io/portfolio/static/media/html.1bc2016b17a46611e541.png",
+    "static/media/MatrixCalculator.png": "/ansh-dulewale.github.io/portfolio/static/media/MatrixCalculator.2f900c6e1bac20268e81.png",
+    "static/media/C.png": "/ansh-dulewale.github.io/portfolio/static/media/C.8a18dae2195e784422e1.png",
+    "static/media/contactPageImage.webp": "/ansh-dulewale.github.io/portfolio/static/media/contactPageImage.2db72d8c7151b6c07a2f.webp",
+    "index.html": "/ansh-dulewale.github.io/portfolio/index.html",
+    "main.d45094a4.css.map": "/ansh-dulewale.github.io/portfolio/static/css/main.d45094a4.css.map",
+    "main.8f5d7656.js.map": "/ansh-dulewale.github.io/portfolio/static/js/main.8f5d7656.js.map",
+    "787.53ca580d.chunk.js.map": "/ansh-dulewale.github.io/portfolio/static/js/787.53ca580d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45094a4.css",
+    "static/js/main.8f5d7656.js"
+  ]
+}
