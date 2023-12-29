@@ -1,0 +1,102 @@
+
+  #Navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+    align-items: center;
+    color: #cbd5e1;
+    }
+
+  #Navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  #Navbar-logo img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-right: 0.625rem;
+  }
+
+  #Navbar-logo h3 {
+    margin: 0;
+  }
+
+  #Navbar-links {
+    display: flex;
+    gap: 0.9375rem;
+  }
+
+  #Navbar-links a {
+    text-decoration: none;
+    color: #cbd5e1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #Navbar-links a:hover {
+    color:  pink;
+    transform: scale(1.1);
+  }
+
+  #Navbar-social-links {
+    display: flex;
+    gap: 0.9375rem;
+  }
+  #Navbar-social-links a:hover{
+    background-color: pink;
+  }
+  #Navbar-links .active {
+    color: white;;
+}
+
+#Navbar-social-links .active {
+    text-decoration: underline;
+    text-decoration-color: palevioletred;
+    color: white;
+}
+#Navbar-links .active::after,
+#Navbar-social-links .active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: palevioletred;
+    margin-top: 5px;
+}
+
+  #Navbar-social-links a {
+    text-decoration: none;
+    color: white;
+    border-radius: 3.5625rem;
+    border:0.0625rem solid white;
+    padding: 0.625rem;
+    /* Add some transition effects to the icons */
+    transition: all 0.3s ease-in-out;
+  }ṁ
+
+  /* Change the color and size of the icons on hover */
+  #Navbar-social-links a:hover {
+    color: #ffffff;
+    background: linear-gradient(145deg, #797979, #ffffff);
+    /* box-shadow: inset 2.9375rem 2.9375rem 4.625rem #797979, inset -2.9375rem -2.9375rem 4.625rem #ffffff; */
+    transform: scale(1.1);
+  }
+  /* CSS */
+
+.fas.fa-times {
+  color: #333;
+  font-size: 2rem;
+}
+
+.fas.fa-bars {
+  color: #333;
+  font-size: 2rem;
+}
+@media  screen and (min-width:300px) and (max-width:800px){
+ #Navbar-container{
+  flex-direction: column;
+ } 
+ #Navbar-links{
+  padding:20px;
+ }
+}

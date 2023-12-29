@@ -1,0 +1,124 @@
+#AboutPage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+
+  gap: 0.625rem;
+  padding: 1.25rem;
+  color: #ffff;
+  padding: 1.875rem;
+  font-size: bold;
+  background-color: rgb(247, 90, 143);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 1px rgba(0, 0, 0, 0.9),
+    inset 0 2px 1px rgba(255, 255, 255, 0.3);
+}
+#AboutPage-Image img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  transition: transform 0.3s;
+  display: flex;
+  position: relative;
+  margin-top: -110%;
+  align-items: initial;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 1px rgba(0, 0, 0, 0.9),
+    inset 0 2px 1px rgba(255, 255, 255, 0.3);
+}
+#AboutPage-Information {
+  background-color: palevioletred;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 1px rgba(0, 0, 0, 0.9),
+    inset 0 2px 1px rgba(255, 255, 255, 0.3);
+    width: 1000px;
+}
+
+#AboutPage-Image img:hover {
+  transform: scale(1.1);
+}
+
+#AboutPage-information-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem;
+}
+
+#AboutPage-information-tabs p {
+  cursor: pointer;
+}
+
+#tab-info li {
+  padding: 0.625rem;
+  list-style-type: decimal;
+}
+
+.tab p {
+  font-weight: bold;
+  transition: transform 0.5s ease-in-out;
+}
+
+.tab p:hover {
+  transform: scale(1.2);
+}
+
+#AboutPage-Information {
+  padding: 10%;
+  display: flex;
+  align-items: initial;
+  flex-direction: column;
+}
+#AboutPage-myname {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 5%;
+  font-size: 2.5rem;
+}
+#AboutPage-myname span {
+  color: pink;
+}
+#education-timeline-content-container{
+  background-color: aliceblue;
+  color: black;
+  width:fit-content;
+  padding:2%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+  #AboutPage-myname{
+    padding: 0%;
+    display: flex;
+    justify-content: left;
+    font-size: 1.5rem;
+  }
+  #AboutPage-Information{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+  }
+  #AboutPage-container {
+    flex-direction: column-reverse;
+  }
+  #AboutPage-Image img {
+    position: relative;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  #AboutPage-information-tabs {
+    gap: 15px;
+  }
+}
+button {
+  padding: 20px;
+  border-radius: 23px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+button:hover {
+  color: pink;
+  border: 1px solid pink;
+}

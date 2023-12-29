@@ -1,0 +1,74 @@
+#HomePage-container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  padding: 0.625rem;
+  justify-content: space-around;
+  align-items: center;
+}
+#HomePage-Greeting {
+  color: white;
+  font-size: 3.125rem;
+  font-weight: bold;
+  padding: 1.25rem;
+}
+
+#HomePage-Greeting span {
+  display: flex;
+  flex-direction: column;
+}
+#name {
+  font-size: smaller;
+}
+#HomePage-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 0.625rem;
+}
+#HomePage-Image {
+  padding: 1.25rem;
+}
+#HomePage-Image img {
+  height: 12.5rem;
+  width: 12.5rem;
+  border: 10px solid pink;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#HomePage-link-1 {
+  border: 0.0625rem solid rgb(247, 243, 243);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+}
+#HomePage-link-1 a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: transform 1s ease-in-out;
+}
+#HomePage-link-1:hover {
+  background-color: pink;
+  transform: scale(1.1);
+  border: 3px solid palevioletred;
+}
+#HomePage-link-2 {
+  border: 0.0625rem solid rgb(247, 243, 243);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+}
+#HomePage-link-2 a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: transform 1s ease-in-out;
+}
+#HomePage-link-2:hover {
+  background-color: pink;
+  transform: scale(1.1);
+  border: 3px solid palevioletred;
+}
+@media screen and (min-width: 390px) {
+  #HomePage-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

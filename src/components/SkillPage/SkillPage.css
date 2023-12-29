@@ -1,0 +1,46 @@
+#main-container{
+    background-color: rgb(215, 37, 67);
+    height: fit-content;
+    padding:10px;
+    color: pink;
+}
+#SkillsPage-container{
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    min-height: 100vh;
+    max-height: fit-content;
+    gap:1.875rem;
+    margin: 0 auto; /* Changed to auto for center alignment */
+    box-sizing: border-box;
+    flex-wrap: wrap; /* Added for responsiveness */
+    padding: 1.875rem;
+}
+.SkillPage-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.625rem;
+    flex-basis: calc(25% - 3.75rem);
+    background-color: pink;
+    color:white;
+    border-radius: 1.875rem;
+    border:0.3125rem solid palevioletred;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.1),
+    inset 0 -2px 1px rgba(0, 0, 0, 0.9),
+}
+.SkillPage-card::before{
+    transition: fade-in;
+}
+.SkillPage-card:hover{
+    transform: scale(1.1);
+}
+.SkillPage-card img{
+    height:6.25rem;
+    width:6.25rem;
+}
+.SkillPage-card p{
+    font-weight: bold;
+}
